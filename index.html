@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Happy Birthday</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <h1 class="title">Надежда, мой компас земной!</h1>
+            </div>
+        </header>
+        <main class="main">
+            <section class="intro">
+                <div class="container">
+                    <div class="intro__wrapper">
+                        <div class="player">
+                            <h2 class="player__title">Туц туц туц</h2>
+                            <div class="player__cover">
+                                <div class="player__cover-rotate">
+                                </div>
+                                <img class="cover__img" src="./assets/img/cover1.jpeg" alt="song-cover">
+                            </div>
+                            <p class="player__song">30 лет в обед!</p>
+                            <audio class="player__audio audio" src="./assets/audio/vodochka.mp3"></audio>
+                            <div class="player__progress">
+                                <div class="progress"></div>
+                                <div class="currentTime">0:00</div>
+                                <div class="durationTime none">0:00</div>
+                            </div>
+
+                            <div class="buttons">
+                                <div class="btn prev"><img class="prevBtn-img" src="./assets/svg/prev.svg" alt="btn"></div>
+                                <div class="btn play"><img class="playBtn-img" src="./assets/svg/play.svg" alt="btn"></div>
+                                <div class="btn next"><img class="nextBtn-img" src="./assets/svg/next.svg" alt="btn"></div>
+                            </div>
+                            <div class="volume">
+                                <h3 class="volume__title">Идикатор чупика</h3>
+                                <input class="input__audio" type="range" name="volume" id="volume" min="0" max="100">
+                            </div>
+                        </div>
+                        <img class="gif-discoball" src="./assets/img/discoball.gif" alt="disco">
+                        <img class="gif-danceman" src="./assets/img/dance.gif" alt="danceman">
+                        <img class="gif-happy" src="./assets/img/happy.gif" alt="happy">
+                        <div class="autor modal" id="modalOne">
+                            <div class="autor__content">
+                                <p class="autor__text">Как говорят в Германии, "Alles Gute zum Geburtstag!"
+                                    Пока не придумали телепорт, будем встречаться по видео связи, а в следующем году жду нашей встречи лично!🎉</p>
+                                <div class="autor__info">
+                                    <img class="autor__img" src="./assets/img/cover3.jpeg" alt="autor">
+                                    <div class="autor__wrapper">
+                                        <p class="autor__name">Юбилей!</p>
+                                        <p class="autor__song">30 лет юхухуху</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="autor modal close" id="modalTwo">
+                            <div class="autor__content">
+                                <p class="autor__text">Сегодня ты стала на один год мудрее, но пусть это не остановит тебя делать дурацкие вещи, ведь именно они делают жизнь интересной!😽</p>
+                                <div class="autor__info">
+                                    <img class="autor__img" src="./assets/img/cover2.jpeg" alt="autor">
+                                    <div class="autor__wrapper">
+                                        <p class="autor__name">Гармошкин</p>
+                                        <p class="autor__song">Раз в годуу</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="autor modal close" id="modalThree">
+                            <div class="autor__content">
+                                <p class="autor__text">Пусть этот год будет наполнен радостью, улыбками и сбудется всё, о чем ты мечтаешь. С днем рождения! ☀️</p>
+                                <div class="autor__info">
+                                    <img class="autor__img" src="./assets/img/cover1.jpeg" alt="autor">
+                                    <div class="autor__wrapper">
+                                        <p class="autor__name">Телевизор</p>
+                                        <p class="autor__song">и два фиксика внутри</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <a class="footer__link" target="_blank" href="!#">
+                        <img src="./assets/img/footer-cat.gif" alt="git">
+                    </a>
+                    <span class="footer__date">30 лет</span>
+                    <a class="footer__link" target="_blank"  href="!#">
+                        <img class="footer__img" src="./assets/img/footer-cat1.png" alt="RS school">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
